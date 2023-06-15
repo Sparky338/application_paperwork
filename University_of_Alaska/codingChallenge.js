@@ -11,13 +11,13 @@ const between10And20 = (num) => {
     };
 };
 
-// console.log(between10And20(9))
-// console.log(between10And20(10))
-// console.log(between10And20(15))
-// console.log(between10And20(20))
-// console.log(between10And20(21))
-// console.log(between10And20("49"))
-// console.log(between10And20("University of Alaska"))
+console.log(between10And20(9))
+console.log(between10And20(10))
+console.log(between10And20(15))
+console.log(between10And20(20))
+console.log(between10And20(21))
+console.log(between10And20("49"))
+console.log(between10And20("University of Alaska"))
 
 
 const isAnagram = (str1, str2) => {
@@ -53,3 +53,8 @@ const isAnagram = (str1, str2) => {
 
 console.log(isAnagram("University of Alaska", "Alaska of University"))
 console.log(isAnagram("University of Alaska", "Alaska of university"))
+console.log(isAnagram("Nanook", "Nanuq"))
+console.log(isAnagram("Nanook", "Nook"))
+console.log(isAnagram("ant", "tan"))
+console.log(isAnagram("apple", "plaep"))
+console.log(isAnagram("Seawolf", "wolfsea"))
