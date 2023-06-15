@@ -10,7 +10,7 @@ const between10And20 = (num) => {
         return true;
     };
 };
-
+console.log("Number Between 10 And 20")
 console.log(between10And20(9))
 console.log(between10And20(10))
 console.log(between10And20(15))
@@ -18,6 +18,7 @@ console.log(between10And20(20))
 console.log(between10And20(21))
 console.log(between10And20("49"))
 console.log(between10And20("University of Alaska"))
+console.log("----------------------------------")
 
 
 const isAnagram = (str1, str2) => {
@@ -51,6 +52,7 @@ const isAnagram = (str1, str2) => {
     return true;
 };
 
+console.log("Is Anagram?")
 console.log(isAnagram("University of Alaska", "Alaska of University"))
 console.log(isAnagram("University of Alaska", "Alaska of university"))
 console.log(isAnagram("Nanook", "Nanuq"))
