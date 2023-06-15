@@ -8,6 +8,8 @@ const between10And20 = (num) => {
     };
 };
 
-
-
-between10And20("word")
+console.log(between10And20(-10))
+console.log(between10And20(10))
+console.log(between10And20(20))
+console.log(between10And20(21))
+console.log(between10And20("University of Alaska"))
